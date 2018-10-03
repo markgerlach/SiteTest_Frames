@@ -19,7 +19,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort />
+    <IISExpressSSLPort>44316</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -170,6 +170,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="ASPXPanel_Test_02.aspx" />
+    <Content Include="ASPXPanel_Test_03.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -178,6 +179,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="controls\ucRibbonControl.ascx" />
     <Content Include="css\FixedPanel.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -275,6 +277,13 @@
     <Compile Include="ASPXPanel_Test_02.aspx.designer.cs">
       <DependentUpon>ASPXPanel_Test_02.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ASPXPanel_Test_03.aspx.cs">
+      <DependentUpon>ASPXPanel_Test_03.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASPXPanel_Test_03.aspx.designer.cs">
+      <DependentUpon>ASPXPanel_Test_03.aspx</DependentUpon>
+    </Compile>
     <Compile Include="classes\ContentHelper.cs" />
     <Compile Include="classes\Security.cs" />
     <Compile Include="classes\UserControlHelper.cs" />
@@ -285,6 +294,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\ucRibbonControl.ascx.cs">
+      <DependentUpon>ucRibbonControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\ucRibbonControl.ascx.designer.cs">
+      <DependentUpon>ucRibbonControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -415,7 +431,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50567</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50567/</IISUrl>
+          <IISUrl>https://localhost:44316/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
