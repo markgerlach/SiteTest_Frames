@@ -112,7 +112,7 @@
 									<Items>
 										<dx:NavBarItem Text="Contact List" NavigateUrl="javascript:setCenterContent('/Personnel/Contact/List');"></dx:NavBarItem>
 										<dx:NavBarItem Text="Contact Edit - Abernathy" NavigateUrl="javascript:setCenterContentEdit('/Personnel/Contact/Edit/-9223372036854775767');"></dx:NavBarItem>
-										<dx:NavBarItem Text="Contact Edit - Person 2" NavigateUrl="javascript:setCenterContentEdit('/Personnel/Contact/Edit/-9223372036854775766');"></dx:NavBarItem>
+										<dx:NavBarItem Text="Contact Edit - McBath" NavigateUrl="javascript:setCenterContentEdit('/Personnel/Contact/Edit/-9223372036854775766');"></dx:NavBarItem>
 									</Items>
 								</dx:NavBarGroup>
 								<dx:NavBarGroup Text="Secondary Functions" ItemBulletStyle="Circle">

@@ -13,6 +13,15 @@ namespace SiteTest_Frames.Personnel {
     public partial class ucEditEmployee {
         
         /// <summary>
+        /// ASPxTextBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxTextBox ASPxTextBox1;
+        
+        /// <summary>
         /// ucContactEdit_txtFirstName control.
         /// </summary>
         /// <remarks>
